@@ -30,7 +30,6 @@ li {
 }
 
 
-
 a {
     text-decoration: none;
 }
@@ -41,10 +40,6 @@ a {
     margin-right: 1rem;
 }
 
-.dropdown-menu !important {
-    right: 0;
-
-}
 
 .star.two::before,
 .star.two::after {
