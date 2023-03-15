@@ -1,3 +1,100 @@
 li {
     list-style: none;
 }
+
+.bg-body-tertiary {
+    background-color: rgb(44, 63, 81) !important;
+}
+
+.bg-green-light {
+    background-color: rgb(26, 188, 156);
+}
+
+.bg-petrol {
+    background-color: rgb(44, 62, 80);
+}
+
+.star.one i {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.star.one::before,
+.star.one::after {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #fff;
+    height: 5px;
+    width: 20%;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.first-row div div ul li:not(:first-child)::before {
+    content: '-';
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.star.two::before,
+.star.two::after {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    background-color: black;
+    height: 5px;
+    width: 20%;
+}
+
+.star.three i,
+.star.four i {
+    font-size: 1rem;
+}
+
+
+.star.three::before,
+.star.three::after {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #fff;
+    height: 2px;
+    width: 8%;
+}
+
+.butt span::before {
+    content: '\f358';
+    font-family: 'Font Awesome 6 Free';
+    padding: 0 5px;
+
+}
+
+.star.four::before,
+.star.four::after {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    background-color: black;
+    height: 2px;
+    width: 8%;
+}
+
+.social li i {
+    border: 1px solid white;
+    padding: 1rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+/* footer */
+
+footer div p span::after {
+    content: '\f1f9';
+    font-family: 'Font Awesome 6 Free';
+    padding: 0 5px;
+}
