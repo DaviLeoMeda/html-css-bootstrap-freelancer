@@ -92,6 +92,10 @@ a {
     border-radius: 50%;
 }
 
+::placeholder {
+    color: black;
+}
+
 /* footer */
 
 footer div p span::after {
