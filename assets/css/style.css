@@ -87,6 +87,7 @@ a {
 .social li i {
     border: 1px solid white;
     padding: 1rem;
+    display: inline-block;
     aspect-ratio: 1;
     border-radius: 50%;
 }
